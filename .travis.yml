@@ -1,4 +1,6 @@
 sudo: required
+os: linux
+rvm: 2.6.3
 
 language: ruby
 
