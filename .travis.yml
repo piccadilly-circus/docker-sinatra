@@ -7,8 +7,6 @@ language: ruby
 before_install:
   - sudo apt purge docker -y
   - sudo apt install docker.io
-  - sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
-  - sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
   - docker -v
   - sudo dockerd --debug
   - systemctl status docker.service
