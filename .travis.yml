@@ -7,7 +7,6 @@ language: ruby
 
 before_install:
   - sudo apt purge docker -y
-  - sudo apt-get update
   - sudo apt install docker.io
   - docker -v
   - sudo dockerd --debug
