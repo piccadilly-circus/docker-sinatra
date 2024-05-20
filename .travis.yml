@@ -4,9 +4,6 @@ dist: focal
 
 language: ruby
 
-services:
-  - docker
-
 before_install:
   - sudo apt-get update
   - sudo apt install -y docker.io
