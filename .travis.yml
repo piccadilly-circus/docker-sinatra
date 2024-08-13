@@ -2,9 +2,6 @@ sudo: required
 os: linux
 rvm: 2.6.3
 
-services:
-  - docker
-
 language: ruby
 
 before_install:
