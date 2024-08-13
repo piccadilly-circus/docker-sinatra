@@ -8,7 +8,6 @@ services:
 language: ruby
 
 before_install:
-- sudo systemctl status docker
 - sudo docker pull carlad/sinatra
 - sudo docker run -d -p 127.0.0.1:80:4567 carlad/sinatra /bin/sh -c "cd /root/sinatra; bundle exec foreman start;"
 - sudo docker ps -a
